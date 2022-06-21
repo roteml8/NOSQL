@@ -17,7 +17,7 @@ public class Runner {
 		
 
 		ConnectionString connectionString = new ConnectionString
-				("mongodb+srv://rotem:candylane@myfirstcluster.lswbo.mongodb.net/?retryWrites=true&w=majority");
+				("...");
 		MongoClientSettings settings = MongoClientSettings.builder()
 		        .applyConnectionString(connectionString)
 		        .serverApi(ServerApi.builder()
